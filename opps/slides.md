@@ -55,6 +55,13 @@ mdc: true
 
 Lucas M. Tassis, Lucas Boschelli, Giovanni Comarela, Mayank Varia, Mark Crovella, Dino P. Christenson
 
+<br>
+<br>
+<br>
+
+SysteMPC Workshop
+
+July 10, 2025
 
 ---
 src: ./slides/overview/overview.md
@@ -69,9 +76,5 @@ src: ./slides/system/system-design.md
 ---
 
 ---
-# Machine Learning Section
----
-
----
-# Something Else
+src: ./slides/conclusion/lessons-future.md
 ---
