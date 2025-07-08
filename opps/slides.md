@@ -63,6 +63,8 @@ SysteMPC Workshop
 
 July 10, 2025
 
+<SlideCurrentNo class="absolute bottom-8 right-10"/>
+
 ---
 src: ./slides/overview/overview.md
 ---

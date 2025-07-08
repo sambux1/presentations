@@ -17,6 +17,8 @@
   </li>
 </ol>
 
+<SlideCurrentNo class="absolute bottom-8 right-10"/>
+
 <style scoped>
 .nested-gray {
   font-size: 0.8em;

@@ -34,3 +34,5 @@
 <img src="../../figures/system-design.png" alt="System Design Diagram" style="max-width: 100%; height: auto;">
 </div>
 </div>
+
+<SlideCurrentNo class="absolute bottom-8 right-10"/>

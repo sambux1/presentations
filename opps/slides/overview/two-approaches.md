@@ -34,6 +34,8 @@ layout: center
     <h2>What about privacy?</h2>
 </div>
 
+<SlideCurrentNo class="absolute bottom-8 right-10"/>
+
 <style>
 .center {
   text-align: center;
