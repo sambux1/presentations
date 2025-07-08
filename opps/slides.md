@@ -65,7 +65,7 @@ src: ./slides/overview/two-approaches.md
 ---
 
 ---
-src: ./slides/overview/our-approach.md
+src: ./slides/system/system-design.md
 ---
 
 ---

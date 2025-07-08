@@ -58,11 +58,6 @@ layout: center
   transition: all 0.3s ease;
 }
 
-.approach-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
-}
-
 .traditional {
   border-color: #7f8c8d;
 }
