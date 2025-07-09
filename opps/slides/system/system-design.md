@@ -17,7 +17,7 @@
 <h3 v-click="5">Intermediate webserver</h3>
 <ul>
   <li v-click="6">Simplifies interaction with users</li>
-  <li v-click="7">Collects basic metadata</li>
+  <li v-click="7">Collects basic metadata (e.g., for payment)</li>
 </ul>
 
 <br>

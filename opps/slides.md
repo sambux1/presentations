@@ -69,6 +69,10 @@ src: ./slides/overview/overview.md
 ---
 
 ---
+src: ./slides/overview/motivation.md
+---
+
+---
 src: ./slides/overview/two-approaches.md
 ---
 
