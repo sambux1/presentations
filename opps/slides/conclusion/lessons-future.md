@@ -4,15 +4,15 @@
 <ol>
   <li v-click="1">Data integrity matters
     <ul>
-      <li class="nested-gray" v-click="2">focus on verifying user honesty in reporting</li>
-      <li class="nested-gray" v-click="3">balancing more extensive tracking with privacy</li>
+      <li class="nested-gray" v-click="2">Focus on verifying user honesty in reporting</li>
+      <li class="nested-gray" v-click="3">Balancing more extensive tracking with privacy</li>
     </ul>
   </li>
   <br>
   <li v-click="4">Strengthen the threat model
     <ul>
       <li class="nested-gray" v-click="5">AWS as a single point of failure</li>
-      <li class="nested-gray" v-click="6">minimize trust</li>
+      <li class="nested-gray" v-click="6">Anonymous payments</li>
     </ul>
   </li>
 </ol>

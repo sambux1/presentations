@@ -1,9 +1,9 @@
 # Overview
 
 <ul>
-  <li v-click="1">we build a system for securely predicting political preferences</li>
-  <li v-click="2">we collect and analyze data from almost 8000 unique users</li>
-  <li v-click="3">all analysis takes place under MPC</li>
+  <li v-click="1">We build a system for securely predicting political preferences</li>
+  <li v-click="2">We collect and analyze data from almost 8000 unique users</li>
+  <li v-click="3">All analysis takes place under MPC</li>
 </ul>
 
 <br>
@@ -13,10 +13,10 @@
 <div style="display: flex; align-items: flex-start; justify-content: space-between;">
   <div style="flex: 1; max-width: 50%; padding-right: 20px;">
     <ul>
-      <li v-click="5">web browsing behavior can predict voting results</li>
-      <li v-click="6">quantifying the 'Comey Letter' (Comarela et al.)
+      <li v-click="5">Web browsing behavior can predict voting results</li>
+      <li v-click="6">Quantifying the 'Comey Letter' (Comarela et al.)
         <ul>
-          <li class="nested-gray" v-click="8">the event was too close to the election for other polling methods to detect the effect</li>
+          <li class="nested-gray" v-click="8">The event was too close to the election for other polling methods to detect the effect</li>
         </ul>
       </li>
     </ul>

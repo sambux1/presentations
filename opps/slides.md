@@ -57,7 +57,6 @@ Lucas M. Tassis, Lucas Boschelli, Giovanni Comarela, Mayank Varia, Mark Crovella
 
 <br>
 <br>
-<br>
 
 SysteMPC Workshop
 
@@ -79,4 +78,8 @@ src: ./slides/system/system-design.md
 
 ---
 src: ./slides/conclusion/lessons-future.md
+---
+
+---
+src: ./slides/conclusion/thank-you.md
 ---

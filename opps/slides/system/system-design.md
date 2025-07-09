@@ -7,8 +7,8 @@
 
 <h3 v-click="2">Users</h3>
 <ul>
-  <li v-click="3">built a Chrome plugin to monitor web behavior</li>
-  <li v-click="4">client-side secret sharing and encryption</li>
+  <li v-click="3">Built a Chrome plugin to monitor web behavior</li>
+  <li v-click="4">Client-side secret sharing and encryption</li>
 </ul>
 
 <br>
@@ -16,8 +16,8 @@
 
 <h3 v-click="5">Intermediate webserver</h3>
 <ul>
-  <li v-click="6">simplifies interaction with users</li>
-  <li v-click="7">collects basic metadata</li>
+  <li v-click="6">Simplifies interaction with users</li>
+  <li v-click="7">Collects basic metadata</li>
 </ul>
 
 <br>
@@ -25,8 +25,8 @@
 
 <h3 v-click="8">MPC backend</h3>
 <ul>
-  <li v-click="9">trains a model on the data</li>
-  <li v-click="10">we use and augment the CrypTen MPC library</li>
+  <li v-click="9">Trains a model on the data</li>
+  <li v-click="10">We use and augment the CrypTen MPC library</li>
 </ul>
 
 </div>
