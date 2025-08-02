@@ -65,6 +65,10 @@ July 10, 2025
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
 ---
+src: ./slides/overview/roadmap.md
+---
+
+---
 src: ./slides/overview/overview.md
 ---
 
@@ -82,6 +86,22 @@ src: ./slides/system/system-design.md
 
 ---
 src: ./slides/conclusion/lessons-future.md
+---
+
+---
+src: ./slides/lessons-future/header.md
+---
+
+---
+src: ./slides/lessons-future/integrity-matters.md
+---
+
+---
+src: ./slides/lessons-future/digging-deeper.md
+---
+
+---
+src: ./slides/lessons-future/location-verification.md
 ---
 
 ---
