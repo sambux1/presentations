@@ -1,6 +1,7 @@
 # Data Integrity Matters
 
 <ul>
+  <br>
   <li v-click="1">Our initial advertisement targeted users in the swing states
     <ul>
       <li class="nested-gray" v-click="2">Incentive to report location dishonestly</li>
@@ -21,10 +22,6 @@
   </li>
 </ul>
 
-<br>
-<br>
-
-<div style="margin-left: 2rem;" v-click="8"><strong>Lesson:</strong> Validating and enforcing user honesty should be a priority in future deployments.</div>
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 

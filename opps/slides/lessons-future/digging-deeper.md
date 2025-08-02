@@ -12,6 +12,10 @@
       <br>
       <br>
       <br>
+      <br>
+      <br>
+      <br>
+      <br>
       <li v-click="4">Honest users contribute much richer data
         <ul>
           <li class="nested-gray" v-click="5">Referral data provides the best signal (Comarela et al.)</li>
@@ -21,7 +25,6 @@
     <br>
     <br>
     <br>
-    <div v-click="7"><strong>Lesson:</strong> Our learning process is surprisingly robust to dishonest users.</div>
   </div>
   <div style="flex: 1; text-align: right; display: flex; flex-direction: column; gap: 1rem;">
     <img src="../../figures/good_fractions.png" alt="Good Fractions" style="max-width: 100%; height: auto; margin-top: -1rem;" v-click="3" />

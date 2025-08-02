@@ -101,7 +101,7 @@ src: ./slides/lessons-future/digging-deeper.md
 ---
 
 ---
-src: ./slides/lessons-future/location-verification.md
+src: ./slides/lessons-future/integrity-conclusion.md
 ---
 
 ---
