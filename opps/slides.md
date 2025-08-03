@@ -58,14 +58,18 @@ Lucas M. Tassis, Lucas Boschelli, Giovanni Comarela, Mayank Varia, Mark Crovella
 <br>
 <br>
 
-SysteMPC Workshop
+PPML Workshop
 
-July 10, 2025
+August 17, 2025
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
 ---
-src: ./slides/overview/roadmap.md
+src: ./slides/intro/people.md
+---
+
+---
+src: ./slides/intro/roadmap.md
 ---
 
 ---
