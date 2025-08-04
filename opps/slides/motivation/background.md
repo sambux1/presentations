@@ -1,4 +1,4 @@
-# Motivation
+# Background
 
 <div style="display: flex; align-items: flex-start; justify-content: space-between;">
   <div style="flex: 1; max-width: 50%; padding-right: 20px;">

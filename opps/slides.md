@@ -64,25 +64,45 @@ August 17, 2025
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
+
+
+<!-- Introduction Section -->
+
 ---
 src: ./slides/intro/people.md
+---
+
+---
+src: ./slides/intro/overview.md
 ---
 
 ---
 src: ./slides/intro/roadmap.md
 ---
 
+
+
+<!-- Motivation Section -->
+
 ---
-src: ./slides/overview/overview.md
+src: ./slides/motivation/header.md
 ---
 
 ---
-src: ./slides/overview/motivation.md
+src: ./slides/motivation/background.md
 ---
 
 ---
-src: ./slides/overview/two-approaches.md
+src: ./slides/motivation/traditional.md
 ---
+
+---
+src: ./slides/motivation/two-approaches.md
+---
+
+
+
+<!-- System Design Section -->
 
 ---
 src: ./slides/system/system-design.md
@@ -90,6 +110,7 @@ src: ./slides/system/system-design.md
 
 
 
+<!-- Learning Section -->
 
 ---
 src: ./slides/learning/header.md
@@ -107,12 +128,7 @@ src: ./slides/learning/algorithm.md
 src: ./slides/learning/mpc.md
 ---
 
-
-
-
----
-src: ./slides/conclusion/lessons-future.md
----
+<!-- Lessons Learned and Future Directions Section -->
 
 ---
 src: ./slides/lessons-future/header.md
@@ -129,6 +145,12 @@ src: ./slides/lessons-future/digging-deeper.md
 ---
 src: ./slides/lessons-future/integrity-conclusion.md
 ---
+
+---
+src: ./slides/lessons-future/strengthen.md
+---
+
+<!-- Conclusion -->
 
 ---
 src: ./slides/conclusion/thank-you.md
