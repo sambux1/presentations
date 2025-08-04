@@ -88,6 +88,28 @@ src: ./slides/overview/two-approaches.md
 src: ./slides/system/system-design.md
 ---
 
+
+
+
+---
+src: ./slides/learning/header.md
+---
+
+---
+src: ./slides/learning/problem.md
+---
+
+---
+src: ./slides/learning/algorithm.md
+---
+
+---
+src: ./slides/learning/mpc.md
+---
+
+
+
+
 ---
 src: ./slides/conclusion/lessons-future.md
 ---
