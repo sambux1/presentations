@@ -105,7 +105,23 @@ src: ./slides/motivation/two-approaches.md
 <!-- System Design Section -->
 
 ---
-src: ./slides/system/system-design.md
+src: ./slides/system/header.md
+---
+
+---
+src: ./slides/system/components.md
+---
+
+---
+src: ./slides/system/client.md
+---
+
+---
+src: ./slides/system/webserver.md
+---
+
+---
+src: ./slides/system/backend.md
 ---
 
 
