@@ -1,25 +1,21 @@
 # MPC Backend
 
-TODO
-
 <div style="display: flex; align-items: flex-start; justify-content: space-between;">
   <div style="flex: 1; max-width: 55%; padding-right: 20px;">
     <ul>
-      <li v-click="1">Simplifies interaction with clients</li>
-      <li v-click="2">Collects basic metadata
+      <li v-click="1">Threat model
         <ul>
-          <li class="nested-gray" v-click="3">For payment and location tracking</li>
+          <li class="nested-gray" v-click="2">Three parties</li>
+          <li class="nested-gray" v-click="3">Semi-honest security</li>
+          <li class="nested-gray" v-click="4">One adversary</li>
         </ul>
       </li>
-      <li v-click="4">Never sees any private data
-        <ul>
-          <li class="nested-gray" v-click="5">Secret‐shares are end-to-end encrypted to the parties</li>
-        </ul>
-      </li>
+      <li v-click="5">We use and augment the CrypTen library</li>
+      <li v-click="6">Code will be available in the future</li>
     </ul>
   </div>
   <div style="flex: 1; text-align: right;">
-      <img src="../../figures/system-design.png" alt="System Design Diagram" style="max-width: 90%; height: auto;" />
+    <img src="../../figures/system-design.png" alt="System Design Diagram" style="max-width: 90%; height: auto;" />
   </div>
 </div>
 
