@@ -39,3 +39,19 @@
   color: #555555 !important;
 }
 </style>
+
+<!--
+As some more background, I'll outline some of the downsides of current approaches to political polling.
+
+(on slide)
+
+What I'm about to show is the list...
+
+Just one. Now here's the same list...
+
+Now, in the context of US presidential elections, this discrepancy makes sense
+- pollster time is a scarce resource
+
+but it does mean that we're leaving potentially valuable data and valuable insights on the table.
+- if we were to have access to much more data, we might be able to learn a lot more
+-->

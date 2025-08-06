@@ -107,3 +107,22 @@ layout: center
   flex-shrink: 0;
 }
 </style>
+
+<!--
+Here, I'll compare the traditional approach to polling with one based on collecting web browsing data.
+
+Traditional polling is
+- slow and expensive, because data collection
+- the results we get are coarse-grained, only yes/no or candidate A/B
+
+In contrast, a system based on analyzing web browsing data can be fully automated
+- which gives us immediate results
+- and is cheap, allowing us to scale to much more data
+- the results are much more fine-grained because we collect much richer data
+
+The richness of the data poses the following question
+- what are we going to do about privacy?
+
+Users will be hesitant to provide their web browsing data
+- can we predict political preferences while respecting user privacy?
+-->

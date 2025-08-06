@@ -14,3 +14,15 @@
 
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
+
+<!--
+Before I begin, I want to lay out the plan for this talk.
+
+I'll start with some background to motivate the problem we're trying to solve.
+
+Then I'll talk about the system we designed to solve the problem
+
+and the specifics of the learning algorithm involved.
+
+Finally, I'll conclude with some lessons learned from the deployment and some areas for future work.
+-->

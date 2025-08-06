@@ -40,3 +40,10 @@
 </div>
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
+
+<!--
+This project is joint work with a great team of
+- cryptographers
+- political scients
+- machine learning researchers
+-->

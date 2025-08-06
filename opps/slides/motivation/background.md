@@ -24,3 +24,14 @@
   color: #555555 !important;
 }
 </style>
+
+<!--
+Prior work in both machine learning and political science has shown that web browsing behavior can predict political sentiment and voting results.
+
+--
+
+As an example, Comarela et al. use web browsing data to quantify the effect of the 2016 "Comey Letter" on a state-by-state basis.
+- you can see their results on the right
+
+Specifics of the letter are not important. What matters is...
+-->
