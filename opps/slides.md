@@ -72,32 +72,27 @@ August 17, 2025
 src: ./slides/intro/people.md
 ---
 
+
+<!-- Background Section -->
+
+---
+src: ./slides/polling/traditional.md
+---
+
+---
+src: ./slides/polling/web-browsing.md
+---
+
+---
+src: ./slides/polling/prior-work.md
+---
+
+---
+src: ./slides/polling/two-approaches.md
+---
+
 ---
 src: ./slides/intro/overview.md
----
-
----
-src: ./slides/intro/roadmap.md
----
-
-
-
-<!-- Motivation Section -->
-
----
-src: ./slides/motivation/header.md
----
-
----
-src: ./slides/motivation/background.md
----
-
----
-src: ./slides/motivation/traditional.md
----
-
----
-src: ./slides/motivation/two-approaches.md
 ---
 
 
