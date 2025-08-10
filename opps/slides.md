@@ -64,9 +64,13 @@ August 17, 2025
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
+<!--
+Hello, I'm Sam Buxbaum
 
+I'm a PhD student at Boston University
 
-<!-- Introduction Section -->
+I'll be presenting...
+-->
 
 ---
 src: ./slides/intro/people.md
@@ -95,13 +99,11 @@ src: ./slides/polling/two-approaches.md
 src: ./slides/intro/overview.md
 ---
 
-
+---
+src: ./slides/learning/problem.md
+---
 
 <!-- System Design Section -->
-
----
-src: ./slides/system/header.md
----
 
 ---
 src: ./slides/system/components.md
@@ -121,19 +123,6 @@ src: ./slides/system/backend.md
 
 
 
-<!-- Learning Section -->
-
----
-src: ./slides/learning/header.md
----
-
----
-src: ./slides/learning/problem.md
----
-
----
-src: ./slides/learning/algorithm.md
----
 
 ---
 src: ./slides/learning/mpc.md

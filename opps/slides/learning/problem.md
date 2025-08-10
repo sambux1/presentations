@@ -6,7 +6,7 @@
       <li v-click="1">Each user uploads an <em>unlabeled</em> 1,034-element vector every day
         <ul>
           <li class="nested-gray" v-click="2">Number of visits to the top 517 sites</li>
-          <li class="nested-gray" v-click="3">Number of social media referrals to the top 517 sites</li>
+          <li class="nested-gray" v-click="3">Number of times referred to the top 517 sites</li>
         </ul>
       </li>
       <li v-click="4">Unlabeled vectors are grouped by state</li>
@@ -29,6 +29,18 @@
 <style scoped>
 .nested-gray {
   font-size: 0.8em;
-  color: #555555 !important;
+  color: #222222 !important;
 }
 </style>
+
+<!--
+Before diving into the MPC, I'll take a minute to talk about the learning problem we're trying to solve.
+
+Every day, each user in the system is going to send us a unlabeled vector with about 1000 elements. We don't know their political preference.
+
+The goal of the problem is to train on an aggregate ground truth
+
+but we want to predict on an individual level. We want to know for each user who they are likely to vote for in an upcoming election.
+
+So, what did we do?
+-->
