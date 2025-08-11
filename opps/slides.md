@@ -121,8 +121,11 @@ src: ./slides/system/webserver.md
 src: ./slides/system/backend.md
 ---
 
+<!-- Plaintext and MPC Learning Algorithm -->
 
-
+---
+src: ./slides/learning/algorithm.md
+---
 
 ---
 src: ./slides/learning/mpc.md

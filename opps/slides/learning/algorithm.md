@@ -1,4 +1,4 @@
-# The Learning Algorithm
+# The Plaintext Algorithm
 
 <br>
 
@@ -26,10 +26,24 @@
 <style scoped>
 .nested-gray {
   font-size: 0.8em;
-  color: #555555 !important;
+  color: #222222 !important;
 }
 </style>
 
 <!--
-...
+To implement an LLP model under MPC, we first need to talk about the plaintext algorithm that it corresponds to.
+
+As a reminder, the input to the model is a group of unlabeled histograms grouped together by state, where each state has a ground-truth label.
+
+The learning algorithm follows a train update loop until it converges.
+
+First we compute some initial predictions for each individual. This can either be random or based on their state's label, but either way it's based on publicly available information.
+
+Next, we train a logistic regression model using the current predictions as the labels.
+
+And we use the logistic regression model to compute new predictions. To do so, we sort each state's users by their prediction, set a threshold for the output so the aggregate prediction matches the ground truth, and then we upate individual predictions by comparing them with the threshold.
+
+So, after this step, if a state voted 60% Democratic in the election, we would assign a Democrat label to the 60% of users predicted to be most likely to vote Democratic.
+
+We repeat this process until the predictions converge.
 -->
