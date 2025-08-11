@@ -142,14 +142,6 @@ src: ./slides/lessons-future/integrity-matters.md
 ---
 
 ---
-src: ./slides/lessons-future/digging-deeper.md
----
-
----
-src: ./slides/lessons-future/integrity-conclusion.md
----
-
----
 src: ./slides/lessons-future/strengthen.md
 ---
 
