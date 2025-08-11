@@ -2,20 +2,12 @@
 
 <div style="display: flex; align-items: flex-start; justify-content: space-between;">
   <div style="flex: 1; max-width: 50%; padding-right: 20px;">
+    <br>
     <ul>
       <li v-click="1">AWS as a single point of failure</li>
-      <li v-click="2">Reduce or eliminate trust in the core computation
-        <ul>
-          <li class="nested-gray" v-click="3">Incorporate external organizations in the MPC</li>
-          <li class="nested-gray" v-click="4">Explore different cryptographic primitives</li>
-        </ul>
-      </li>
-      <li v-click="5">Anonymous payments</li>
+      <li v-click="2">Reduce or eliminate trust in the core computation</li>
+      <li v-click="3">Anonymous payments</li>
     </ul>
-  </div>
-  <div style="flex: 1; text-align: right;" v-click="6">
-    <!-- TODO: replace with actual diagram once ready -->
-    <img src="../../figures/system-design.png" alt="Threat Model Diagram" style="max-width: 50%; height: auto;" />
   </div>
 </div>
 
@@ -27,3 +19,13 @@
   color: #555555 !important;
 }
 </style>
+
+<!--
+The main area for future work is broadly to strengthen the threat model.
+
+The use of CrypTen out-of-the-box meant that all computing parties had to be in AWS, which leaves AWS as a single point of failure.
+
+More generally, we hope to reduce the level of trust in the core computation. To do so, two general directions are either to incorporate more external organizations in the MPC or to explore the possibility of using different cryptographic primitives.
+
+Finally, our payment system gave us the ability to learn which users were in the sample and on which days. This can be avoided by incorporating anonymous payments.
+-->

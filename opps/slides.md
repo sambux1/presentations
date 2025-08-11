@@ -56,6 +56,13 @@ mdc: true
 Lucas M. Tassis, Lucas Boschelli, Giovanni Comarela, Mayank Varia, Mark Crovella, Dino P. Christenson
 
 <br>
+
+<div class="relative flex justify-center items-center w-full">
+  <img src="/figures/logos/boston-university.png" alt="Boston University" class="h-20 absolute" style="left: calc(50% - 180px); transform: translateX(-50%);" />
+  <img src="/figures/logos/ufes.png" alt="UFES" class="h-20" />
+  <img src="/figures/logos/wash-u.jpg" alt="Washington University in St. Louis" class="h-20 absolute" style="left: calc(50% + 180px); transform: translateX(-50%);" />
+</div>
+
 <br>
 
 PPML Workshop
