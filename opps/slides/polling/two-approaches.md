@@ -52,27 +52,27 @@ layout: center
 
 .approach-card {
   flex: 0 0 380px;
-  background: #f8f9fa;
+  background: #e9ecef;
   border-radius: 12px;
   padding: 2rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   border: 2px solid transparent;
   transition: all 0.3s ease;
 }
 
 .traditional {
-  border-color: #7f8c8d;
+  border-color: #495057;
 }
 
 .modern {
-  border-color: #7f8c8d;
+  border-color: #495057;
 }
 
 .approach-card h3 {
   text-align: center;
   margin-bottom: 1.5rem;
   font-size: 1.4rem;
-  color: #2c3e50 !important;
+  color: #212529 !important;
 }
 
 .features {
@@ -85,25 +85,25 @@ layout: center
   display: flex;
   align-items: center;
   padding: 0.6rem 1rem;
-  background: white;
+  background: #f8f9fa;
   border-radius: 8px;
   font-weight: 500;
-  color: #2c3e50 !important;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  color: #212529 !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
 }
 
 .vs-divider {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #7f8c8d !important;
-  background: #ecf0f1;
+  color: #495057 !important;
+  background: #dee2e6;
   width: 60px;
   height: 60px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   flex-shrink: 0;
 }
 </style>

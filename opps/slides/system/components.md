@@ -5,10 +5,10 @@
     <!-- Active (black) states -->
     <br>
     <h3 v-click="1" style="margin: 0;">Client Plugin</h3>
-    <Arrow v-click="1" v-click.hide="2" v-bind="{ x1:320, y1:164, x2:550, y2:164 }" />
+    <Arrow v-click="[1, 2]" v-bind="{ x1:320, y1:164, x2:550, y2:164 }" />
     <br>
     <h3 v-click="2" style="margin: 0;">Webserver</h3>
-    <Arrow v-click="2" v-click.hide="3" v-bind="{ x1:320, y1:299, x2:550, y2:299 }" />
+    <Arrow v-click="[2, 3]" v-bind="{ x1:320, y1:299, x2:550, y2:299 }" />
     <br>
     <h3 v-click="3" style="margin: 0;">MPC Backend</h3>
     <Arrow v-click="3" v-bind="{ x1:320, y1:434, x2:450, y2:434 }" />
