@@ -1,5 +1,7 @@
 # Implementation in MPC
 
+<br>
+
 <ul>
   <li v-click="1">Initial label assignment can be performed in plaintext</li>
   <li v-click="2">Training a logistic regression model is supported by CrypTen</li>
