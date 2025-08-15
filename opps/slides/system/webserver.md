@@ -24,7 +24,7 @@
 </style>
 
 <!--
-Next, we have an intermediate webserver which exists solely to simplify the interaction with the clients.
+Next, we have an intermediate webserver which exists to simplify the interaction with the clients.
 
 We don't want to have the MPC servers running all the time, and we don't want the client to have to manage 3 connections.
 

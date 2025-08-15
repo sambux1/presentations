@@ -11,7 +11,7 @@
     </ul>
   </div>
   <div style="flex: 1; text-align: right;">
-    <img src="../../figures/histograms.drawio.png" alt="Blue Histogram" style="max-width: 60%; height: auto; margin-bottom: 10px;" v-click="3" />
+    <img src="../../figures/histograms.drawio.png" alt="Blue Histogram" style="max-width: 60%; height: auto; margin-top: 20px; margin-bottom: 10px;" v-click="3" />
   </div>
 </div>
 

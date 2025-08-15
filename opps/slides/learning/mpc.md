@@ -7,9 +7,20 @@
   <li v-click="2">Training a logistic regression model is supported by CrypTen</li>
   <li v-click="3">Computing thresholds requires oblivious sorting</li>
   <li v-click="4">Updated label assignment and convergence checking use secure comparisons</li>
-  <li v-click="5">Practically efficient</li>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <li v-click="5">Training took 70 minutes</li>
   <li v-click="6">Code will be open source in the future</li>
 </ul>
+
+<!-- LLP Full Training Figure (bottom right) -->
+<div style="position: absolute; bottom: 50px; right: 50px; width: 50%; height: auto;">
+  <img src="../../figures/llp-full-training.drawio.png" alt="LLP Full Training" style="width: 100%; height: auto; object-fit: contain;" />
+</div>
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 

@@ -4,9 +4,9 @@
   <div style="flex: 1; max-width: 55%; padding-right: 20px;">
     <br>
     <ul>
-      <li v-click="1">We use and augment the CrypTen library</li>
-      <li v-click="2">We implemented an algorithm for LLP under MPC</li>
-      <li v-click="3">Three party computation with an honest majority</li>
+      <li v-click="1">Three party computation with an honest majority</li>
+      <li v-click="2">We used and augmented the CrypTen library</li>
+      <li v-click="3">We implemented an algorithm for LLP under MPC</li>
     </ul>
   </div>
   <div style="flex: 1; text-align: right;">
@@ -28,7 +28,7 @@ The final component is the MPC backend.
 
 We run the MPC in the three party setting with an honest majority.
 
-And we build our implementation on top of the CrypTen library.
+And we built our implementation on top of the CrypTen library.
 
 We implemented an algorithm for the learning from label proportions problem under MPC. This is the first MPC implementation of a model for this particular problem.
 

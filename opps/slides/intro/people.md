@@ -44,6 +44,6 @@
 <!--
 This project is joint work with a great team of
 - cryptographers
-- political scients
+- political scientists
 - machine learning researchers
 -->

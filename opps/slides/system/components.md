@@ -27,4 +27,5 @@ First, there's a browser plugin that users install which monitors their web brow
 
 Then, there's an intermediate webserver which simplifies the interaction between clients and MPC servers.
 
+Finally, there's the MPC backend which performs the computation.
 -->

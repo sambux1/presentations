@@ -10,7 +10,7 @@
       <li v-click="4">Implementation is open source</li>
     </ul>
     <!-- GitHub widget absolute positioned -->
-    <div v-click="5" class="absolute bottom-10 left-20" style="display:flex; align-items:center; gap:1rem; background:#000; border-radius:12px; padding:0.75rem 1rem;">
+    <div class="absolute bottom-10 left-20" style="display:flex; align-items:center; gap:1rem; background:#000; border-radius:12px; padding:0.75rem 1rem;">
       <div style="width:48px; height:48px; background:#fff; border-radius:50%; display:flex; align-items:center; justify-content:center;">
         <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" style="width:44px; height:44px; border-radius:50%;" />
       </div>
@@ -38,9 +38,11 @@ We built a custom Chrome plugin from scratch which monitors both website visits 
 
 Every day, the plugin puts together a histogram of the number of visits and referrals to each website.
 
-Then it secret shares the histogram and encrypts the shares under the public key of the destination MPC party.
+Then it secret shares the histogram and sends the shares to the computing parties.
+
+The shares are encrypted under the public key of the destination party.
 
 All secret sharing and encryption takes place on the client side.
 
-The plugin code is open source and can be found at the link at the bottom.
+And finally, the plugin code is open source and can be found at the link at the bottom.
 -->
