@@ -15,6 +15,33 @@ transition: slide-left
 mdc: true
 ---
 
+<style>
+.slidev-layout, .slidev-page {
+  background: white !important;
+  color: black !important;
+}
+
+.slidev-layout h1, .slidev-layout h2, .slidev-layout h3, 
+.slidev-layout h4, .slidev-layout h5, .slidev-layout h6 {
+  color: black !important;
+}
+
+.slidev-layout p, .slidev-layout li, .slidev-layout strong {
+  color: black !important;
+}
+
+/* Indent bullets that come after headings or paragraphs */
+.slidev-layout h1 + ul,
+.slidev-layout h2 + ul,
+.slidev-layout h3 + ul,
+.slidev-layout h4 + ul,
+.slidev-layout h5 + ul,
+.slidev-layout h6 + ul,
+.slidev-layout p + ul {
+  margin-left: 2rem;
+}
+</style>
+
 # Qualifying Exam
 
 November ..., 2025
@@ -23,4 +50,12 @@ Sam Buxbaum
 
 ---
 src: ./slides/shuffle/header.md
+---
+
+---
+src: ./slides/shuffle/problem.md
+---
+
+---
+src: ./slides/shuffle/half.md
 ---
