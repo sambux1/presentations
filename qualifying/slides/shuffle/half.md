@@ -20,3 +20,5 @@
 - Known as "Permute+Share"
 
 </v-clicks>
+
+<SlideCurrentNo class="absolute bottom-8 right-10"/>

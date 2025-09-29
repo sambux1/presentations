@@ -59,3 +59,11 @@ src: ./slides/shuffle/problem.md
 ---
 src: ./slides/shuffle/half.md
 ---
+
+---
+src: ./slides/shuffle/preprocessing.md
+---
+
+---
+src: ./slides/shuffle/online.md
+---
