@@ -57,6 +57,10 @@ src: ./slides/shuffle/problem.md
 ---
 
 ---
+src: ./slides/shuffle/motivation.md
+---
+
+---
 src: ./slides/shuffle/half.md
 ---
 
