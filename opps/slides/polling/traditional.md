@@ -32,11 +32,13 @@
 <!--
 This project is about a new way to do political polling.
 
-I'll start by pointing out some of the downsides of traditional approaches to polling.
+So I'll start with some background and some of the downsides of traditional approaches to polling.
 
-First, data collection takes time. There's typically a high latency between commissioning a poll and getting results.
+In a typical poll, we collect data by either calling people or getting them to fill out a survey.
 
-Second, data collection is a human-intensive process, so scaling to collect more data is costly.
+This means that data collection takes time. There's typically a high latency between commissioning a poll and getting results.
+
+Second, data collection is a human-intensive process, so scaling to collect more data can be quite costly.
 
 Finally, traditional polling offers poor geographic and temporal coverage. Polls are restricted to a few key areas immediately before an election, which means many locations go unpolled for weeks or months.
 
@@ -44,9 +46,9 @@ What I'm about to show is the complete list of polls commissioned in the state o
 
 Just one. Now here's the same list...
 
-In the context of US presidential elections, this discrepancy makes sense.
+In the context of US presidential elections, this discrepancy makes sense. Pollster time is a scarce resource, and they want to spend that time on states they think will be competitive.
 
 But it does mean that we're leaving potentially valuable data and valuable insights on the table.
 
-If we were to have access to much more data, we might be able to learn a lot more.
+If we were to have access to much more data, we might be able to learn quite a bit more and make more accurate predictions.
 -->

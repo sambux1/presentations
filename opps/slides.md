@@ -76,7 +76,9 @@ Hello, I'm Sam Buxbaum
 
 I'm a PhD student at Boston University
 
-I'll be presenting...
+And today I'll be presenting a deployment of privacy-preserving machine learning for political polling in the 2024 presidential election.
+
+This presentation is based on a paper that was recently accepted to appear in CSCML and which is now available on the ePrint.
 -->
 
 ---

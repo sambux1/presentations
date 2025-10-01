@@ -30,13 +30,13 @@ As a reminder, the input to the model is a group of unlabeled histograms grouped
 
 The learning algorithm follows a train update loop until it converges.
 
-First we compute some initial predictions for each individual. This can either be random or based on their state's label.
+We repeat the following steps until we reach convergence.
 
-Then, we repeat the following steps until we reach convergence.
+We train a logistic regression model on the data.
 
-We train a logistic regression model using the current predictions as the labels and run inference on the users given this model.
+Logistic regression requires each user to have a label, so we're going to assign each user a label. We start with some initial predictions which can either be random or based on their state's label. We're going to update these predictions in each iteration and retrain the logistic regression model.
 
-Then, we sort each state's users by their prediction. We set a threshold for the output so the aggregate prediction matches the ground truth, and we update individual predictions by comparing them with the threshold.
+After training a model for the iteration, we run inference with the model. Then, we sort each state's users by their prediction. We set a threshold for the output, and we update individual predictions by comparing them with the threshold.
 
 So, after this step, if a state voted 60% Democratic in the election, we would assign a Democrat label to the 60% of users predicted to be most likely to vote Democratic.
 

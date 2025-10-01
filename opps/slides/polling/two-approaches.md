@@ -118,11 +118,13 @@ Traditional polling is
 In contrast, a system based on analyzing web browsing data can be fully automated
 - which gives us immediate results
 - and is cheap, allowing us to scale to much more data
-- the results are much more fine-grained because we collect much richer data
+- the results are much more fine-grained because we collect much richer data. Not only can we learn who an individual supports, but we might get an idea for why and how that changes over time.
 
 The richness of the data poses the following question
 - what are we going to do about privacy?
 
 Clearly, we don't want to be collecting all this data in plaintext.
 - can we predict political preferences while respecting user privacy?
+
+We show that the answer is yes.
 -->

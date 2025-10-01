@@ -37,7 +37,5 @@ Specifics of the letter are not important. What matters is that the event was to
 
 They also found that social media provide the best signal.
 
-By this, I mean the number of times you arrived at a given website by clicking a link on social media.
-
-The idea is that the website visits are a reflection of your social circle and your social media feed.
+By this, I mean not whether you visited a certain website, but whether you did so by clicking on a link on social media.
 -->

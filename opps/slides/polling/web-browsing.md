@@ -20,7 +20,7 @@
 <!--
 With that in mind, we seek to conduct political polls based on web browsing data.
 
-The starting point is the following question...
+The starting point is the following question: can website visits predict political leanings?
 
 It's not hard to see why this might be the case. The media you consume can say a lot about your politics.
 
