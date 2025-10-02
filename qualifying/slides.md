@@ -79,3 +79,27 @@ src: ./slides/shuffle/preprocessing.md
 ---
 src: ./slides/shuffle/online.md
 ---
+
+---
+src: ./slides/shuffle/formal.md
+---
+
+---
+src: ./slides/shuffle/sota.md
+---
+
+---
+src: ./slides/shuffle/oprf.md
+---
+
+---
+src: ./slides/shuffle/peceny-linear.md
+---
+
+---
+src: ./slides/shuffle/analysis.md
+---
+
+---
+src: ./slides/shuffle/peceny-sublinear.md
+---
