@@ -107,3 +107,19 @@ src: ./slides/shuffle/peceny-sublinear.md
 ---
 src: ./slides/shuffle/sublinear-analysis.md
 ---
+
+---
+src: ./slides/shuffle/open-problems.md
+---
+
+---
+src: ./slides/shuffle/open-bitwidth.md
+---
+
+---
+src: ./slides/shuffle/open-num.md
+---
+
+---
+src: ./slides/shuffle/open-size.md
+---
