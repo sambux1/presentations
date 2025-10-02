@@ -15,6 +15,15 @@ Combine aspects of the circuit model and RAM model of computation.
 
 </v-clicks>
 
+<br>
+<br>
+
+<v-clicks>
+
+How do we do it?
+
+</v-clicks>
+
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
 <!--
@@ -29,4 +38,6 @@ What we really want is a way to opportunistically pick-and-choose between the ci
 Oblivious shuffle gives us this ability and acts as our bridge between the two worlds.
 
 And it's this expressivity that makes it a central primitive for complex workloads.
+
+Hopefully by this point I've motivated shuffle well enough that you're wondering "how do we do it?"
 -->
