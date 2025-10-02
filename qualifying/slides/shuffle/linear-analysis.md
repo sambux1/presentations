@@ -8,7 +8,10 @@
 
 - $n$ calls to the OPRF
 - $O(n \ell)$ total communication
-- something about efficiency of my implementation
+- Most efficient construction to date in practice
+
+<br>
+something about efficiency of my implementation
 
 </v-clicks>
 

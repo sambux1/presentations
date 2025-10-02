@@ -97,9 +97,13 @@ src: ./slides/shuffle/peceny-linear.md
 ---
 
 ---
-src: ./slides/shuffle/analysis.md
+src: ./slides/shuffle/linear-analysis.md
 ---
 
 ---
 src: ./slides/shuffle/peceny-sublinear.md
+---
+
+---
+src: ./slides/shuffle/sublinear-analysis.md
 ---
