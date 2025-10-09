@@ -74,3 +74,11 @@ src: ./slides/opps/next/secure-aggregation.md
 ---
 src: ./slides/opps/next/scaling-training.md
 ---
+
+---
+src: ./slides/orq/title.md
+---
+
+---
+src: ./slides/orq/intro/intro.md
+---
