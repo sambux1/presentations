@@ -21,6 +21,11 @@ mdc: true
   color: black !important;
 }
 
+.slidev-layout strong,
+.slidev-layout b {
+  font-weight: 1000;
+}
+
 .slidev-layout h1, .slidev-layout h2, .slidev-layout h3, 
 .slidev-layout h4, .slidev-layout h5, .slidev-layout h6 {
   color: black !important;
@@ -52,6 +57,7 @@ October 31, 2025
 
 #### Sam Buxbaum
 ###### Boston University
+<!--<img src="./figures/boston-university.png" style="scale: 40%">-->
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
@@ -76,9 +82,21 @@ src: ./slides/opps/next/scaling-training.md
 ---
 
 ---
-src: ./slides/orq/title.md
+src: ./slides/sorting/title.md
 ---
 
 ---
-src: ./slides/orq/intro/intro.md
+src: ./slides/sorting/background.md
+---
+
+---
+src: ./slides/sorting/contributions.md
+---
+
+---
+src: ./slides/sorting/quicksort.md
+---
+
+---
+src: ./slides/sorting/iterative.md
 ---
