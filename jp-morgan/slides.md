@@ -130,5 +130,13 @@ src: ./slides/orq/intro.md
 ---
 
 ---
+src: ./slides/orq/oblivious.md
+---
+
+---
+src: ./slides/orq/join.md
+---
+
+---
 src: ./slides/orq/problem.md
 ---
