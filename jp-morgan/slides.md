@@ -120,3 +120,15 @@ src: ./slides/sorting/secretflow.md
 ---
 
 # 2PC Sorting with Preprocessing
+
+---
+src: ./slides/orq/title.md
+---
+
+---
+src: ./slides/orq/intro.md
+---
+
+---
+src: ./slides/orq/problem.md
+---
