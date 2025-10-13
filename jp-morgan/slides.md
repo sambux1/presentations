@@ -140,3 +140,44 @@ src: ./slides/orq/join.md
 ---
 src: ./slides/orq/problem.md
 ---
+
+---
+src: ./slides/orq/insight.md
+---
+
+---
+src: ./slides/orq/operator.md
+---
+
+---
+src: ./slides/orq/many.md
+---
+
+---
+src: ./slides/orq/support.md
+---
+
+---
+src: ./slides/orq/sorting.md
+---
+
+---
+src: ./slides/orq/queries.md
+---
+
+---
+src: ./slides/orq/scalability.md
+---
+
+---
+src: ./slides/orq/system.md
+---
+
+---
+src: ./slides/orq/future.md
+---
+
+---
+layout: center
+---
+# Thank You!
