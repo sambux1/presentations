@@ -11,7 +11,7 @@
     v-click v-show="$slidev.nav.clicks == 2">
   
   <img class="crop-image" src="../../figures/join-animated/slide-4.png"
-    v-click v-show="$slidev.nav.clicks == 3">
+    v-click v-show="$slidev.nav.clicks >= 3">
 </div>
 
 <style>
@@ -24,6 +24,12 @@
 }
 
 </style>
+
+<callout x="50" y="87" v-click="4">
+
+  $O(n^2)$ time and space
+
+</callout>
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
