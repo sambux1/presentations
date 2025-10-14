@@ -21,6 +21,12 @@
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
 <!--
+ORQ is a system for performing relational analytics under MPC. The paper recently appeared at SOSP 25.
+
+The three little badges here mean that it was deemed fully reprocudible. It actually won the distinguished artifact award, so we're pretty proud of that.
+
+Here are two QR codes that link to the paper and the source code.
+
 Outline
 - problem - joins require quadratic space in the intermediate results
 - technique - join aggregation operator, solves one-to-many or many-to-many with decomposable aggregations

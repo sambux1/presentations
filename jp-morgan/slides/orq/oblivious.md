@@ -21,7 +21,7 @@ Oblivious computation must maintain *worst-case* output sizes.
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
 <!--
-Let's start with the fundamental problem that has been plaguing secure databases for quite some time.
+Let's start with the fundamental problem that plagues secure databases.
 
 Any secure computation must be oblivious, meaning the control flow must be independent of the data.
 

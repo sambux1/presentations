@@ -38,4 +38,6 @@ Joining them leaves us with a table of quadratic size. Then, if we try to join a
 This is a cascading effect, so for real world queries of interest which require a lot of joins, we're left with an output of size n to the k plus 1 for k joins.
 
 This is obliviously not practical, and prior work has used this barrier to argue that we need leakage in order to evaluate complex queries.
+
+We're going to take a different approach.
 -->
