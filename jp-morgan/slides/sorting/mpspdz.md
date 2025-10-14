@@ -3,6 +3,8 @@
 <br>
 <br>
 
-<img src="../../figures/mpspdz.png" style="width: 85%">
+<div class="flex justify-center">
+    <img src="../../figures/mpspdz.png" style="width: 85%">
+</div>
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
