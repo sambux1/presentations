@@ -8,6 +8,8 @@ We can transform a many-to-many join into a one-to-many join.
 
 *Pre-aggregate* one of the tables and mark duplicate keys as invalid.
 
+<img class="absolute right-12 top-24" style="width: 30%" src="../../figures/concat-table.png">
+
 </v-clicks>
 
 <v-clicks>
