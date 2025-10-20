@@ -102,8 +102,8 @@ src: ./slides/sorting/iterative.md
 ---
 
 ---
-
-# Placeholder: Radix Sort
+src: ./slides/sorting/radix.md
+---
 
 ---
 src: ./slides/sorting/large-results.md
