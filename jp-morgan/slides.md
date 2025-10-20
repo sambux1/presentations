@@ -106,6 +106,10 @@ src: ./slides/sorting/radix.md
 ---
 
 ---
+src: ./slides/sorting/extracting.md
+---
+
+---
 src: ./slides/sorting/large-results.md
 ---
 
