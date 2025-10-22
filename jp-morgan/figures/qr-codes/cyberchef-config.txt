@@ -1,0 +1,4 @@
+PNG
+Module Size: 5px
+Margin: 2
+Error Correction: Medium

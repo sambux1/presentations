@@ -62,6 +62,14 @@ October 31, 2025
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
 ---
+src: ./slides/roadmap.md
+---
+
+---
+src: ./slides/opps/intro/intro.md
+---
+
+---
 src: ./slides/opps/next/looking-ahead.md
 ---
 
