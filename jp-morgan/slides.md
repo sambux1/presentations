@@ -70,6 +70,22 @@ src: ./slides/opps/intro/intro.md
 ---
 
 ---
+src: ./slides/opps/polling/traditional.md
+---
+
+---
+src: ./slides/opps/polling/web-browsing.md
+---
+
+---
+src: ./slides/opps/polling/prior-work.md
+---
+
+---
+src: ./slides/opps/polling/two-approaches.md
+---
+
+---
 src: ./slides/opps/next/looking-ahead.md
 ---
 

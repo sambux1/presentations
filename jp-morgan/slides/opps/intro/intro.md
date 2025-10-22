@@ -4,7 +4,7 @@
 To appear at CSCML 25!
 </callout>
 
-<div class="absolute bottom-18 right-18" style="display:flex; flex-direction: column; align-items: center; gap: 0.5rem; width: 28vw;">
+<div class="absolute bottom-18 right-18" style="display:flex; flex-direction: column; align-items: center; gap: 0.5rem; width: 40%;">
   <div style="display:flex; gap: 1rem; align-items:center; transform: scale(1);">
     <img src="../../../figures/logos/bu.png" style="height: 60px">
     <img src="../../../figures/logos/ufes.png" style="height: 60px">
