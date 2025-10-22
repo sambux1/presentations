@@ -98,10 +98,6 @@ src: ./slides/opps/next/new-approach.md
 ---
 
 ---
-src: ./slides/opps/next/secure-aggregation.md
----
-
----
 src: ./slides/opps/next/scaling-training.md
 ---
 

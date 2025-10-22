@@ -1,17 +1,14 @@
 # Scaling Up Training
 
-- 2k $\to$ 10k clients
--
-- Bottleneck: oblivious sorting
+<br>
 
-<div style="float: right">
-```mermaid {scale: 0.6}
-pie title
-    "Sorting" : 120
-    "Logistic Regression" : 85
-    "Other" : 15
-```
-</div>
+<v-clicks>
+
+- 2k $\to$ 10k clients
+- Bottleneck: oblivious sorting
+- Distributing trust more widely
+
+</v-clicks>
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 

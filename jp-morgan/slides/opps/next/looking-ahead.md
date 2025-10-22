@@ -5,8 +5,9 @@
 <v-clicks>
 
 - More data
-- Rebuilding the inference pipeline
+- Redesigning the inference pipeline
 - Scaling the training pipeline
+- Anonymous payments
 
 </v-clicks>
 
@@ -19,7 +20,7 @@ There are three major changes that we're exploring as we build the next version.
 
 First, we want to collect more data, while respecting user privacy.
 
-Second, we want to rebuild the inference pipeline to take advantage of the fact that inference is an easier problem than training.
+Second, we want to redesign and rebuild the inference pipeline to take advantage of the fact that inference is an easier problem than training.
 
 And finally, we want to scale up the training pipeline to be able to accommodate more users and a larger sample.
 -->
