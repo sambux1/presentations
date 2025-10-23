@@ -1,12 +1,13 @@
 # Prior Work
 
 <div style="display: flex; align-items: flex-start; justify-content: space-between;">
-  <div style="flex: 1; max-width: 50%; padding-right: 20px;">
+  <div style="flex: 1; max-width: 55%; padding-right: 20px;">
     <br>
     <ul>
       <li v-click="1">Web browsing behavior can predict voting results</li>
       <li v-click="2">Quantifying the 'Comey letter' (Comarela et al.)</li>
       <li v-click="4">Social media referrals are the best signal</li>
+      <li v-click="5">Used large plaintext dataset</li>
     </ul>
   </div>
   <div style="flex: 1; text-align: right;" v-click="3">

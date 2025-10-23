@@ -56,8 +56,8 @@ October 31, 2025
 <br>
 
 #### Sam Buxbaum
-###### Boston University
-<!--<img src="./figures/boston-university.png" style="scale: 40%">-->
+
+<img src="./figures/logos/bu.png" class="absolute bottom-12 left-1/2 -translate-x-1/2" style="width: 20%; height: auto">
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
@@ -66,7 +66,7 @@ src: ./slides/roadmap.md
 ---
 
 ---
-src: ./slides/opps/intro/intro.md
+src: ./slides/opps/intro.md
 ---
 
 ---
@@ -83,6 +83,30 @@ src: ./slides/opps/polling/prior-work.md
 
 ---
 src: ./slides/opps/polling/two-approaches.md
+---
+
+---
+src: ./slides/opps/overview/contributions.md
+---
+
+---
+src: ./slides/opps/overview/problem.md
+---
+
+---
+src: ./slides/opps/payment/payment.md
+---
+
+---
+src: ./slides/opps/payment/partition.md
+---
+
+---
+src: ./slides/opps/payment/calculation.md
+---
+
+---
+src: ./slides/opps/payment/anonymous.md
 ---
 
 ---
