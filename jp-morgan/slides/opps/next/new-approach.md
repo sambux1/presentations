@@ -8,6 +8,7 @@
 - Run inference locally, aggregate
     - Secure aggregation
     - Work-in-progress open source implementation
+- Attach ZK proofs of correct inference evaluation
 
 </v-clicks>
 

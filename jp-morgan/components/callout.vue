@@ -34,6 +34,7 @@ const containerStyle = computed(() => {
     background: props.color,
     color: props.textColor,
     fontWeight: 'bold',
+    lineHeight: '1.2',
     padding: props.padding,
     borderRadius: props.radius,
     border: props.border,
@@ -45,7 +46,7 @@ const containerStyle = computed(() => {
 </script>
 
 <template>
-  <div :style="containerStyle">
+  <div :style="containerStyle" class="callout-root">
     <slot />
   </div>
   <!-- Note: This component uses absolute positioning; ensure parent is relatively positioned -->
@@ -53,7 +54,22 @@ const containerStyle = computed(() => {
 </template>
 
 <style scoped>
-/* Allow the callout to size to its content while remaining click-through friendly */
+/* Normalize inline math and paragraph spacing so height stays consistent */
+.callout-root {
+  display: inline-block;
+}
+
+/* Remove default margins that markdown paragraphs might add inside slot */
+:deep(p) {
+  margin: 0;
+}
+
+/* Let KaTeX use baseline alignment to match adjacent text */
+
+/* Ensure display math (if used) doesn't add extra top/bottom margins */
+:deep(.katex-display) {
+  margin: 0;
+}
 </style>
 
 

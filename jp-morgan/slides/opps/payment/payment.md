@@ -6,6 +6,7 @@
 
 - Users are paid and recruited through Mechanical Turk
     - Requires knowledge of non-anonymous MTurk ID
+    - Which users on which days
 
 </v-clicks>
 
