@@ -93,6 +93,32 @@ src: ./slides/opps/overview/contributions.md
 src: ./slides/opps/overview/problem.md
 ---
 
+<!-- System Design Section -->
+
+---
+src: ./slides/opps/system/components.md
+---
+
+---
+src: ./slides/opps/system/client.md
+---
+
+---
+src: ./slides/opps/system/webserver.md
+---
+
+---
+src: ./slides/opps/system/backend.md
+---
+
+---
+src: ./slides/opps/learning/plaintext.md
+---
+
+---
+src: ./slides/opps/learning/translation.md
+---
+
 ---
 src: ./slides/opps/payment/payment.md
 ---
