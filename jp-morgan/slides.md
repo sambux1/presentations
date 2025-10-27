@@ -188,10 +188,6 @@ src: ./slides/sorting/mpspdz.md
 ---
 
 ---
-src: ./slides/sorting/secretflow.md
----
-
----
 src: ./slides/orq/title.md
 ---
 

@@ -16,3 +16,13 @@
 </callout>
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
+
+<!--
+Finally it's time for some results. We implemented quicksort and radix sort with 2 parties, 3 parties, and 4 parties. The only significant difference between the different settings is which oblivious shuffle to use. Oblivious shuffling is very different in the honest majority setting and dishonest majority setting, but the efficiency in the online phase is roughly the same.
+
+What we see in the results is that both quicksort and radixsort are more or less the same, with some minor fluctuations here and there.
+
+The really important point here is the scale. We're able to sort half a billion elements, and the top end of this graph is just two or three hours. This is a scale that has never been reached before to our knowledge.
+
+And a fun little detail here is that we can actually scale quicksort considerably farther than radix sort, because radix sort has some significant memory constraints as we get into these super large input sizes. We can keep scaling both of them arbitrarily as long as we keep increasing the machines' memory, but only quicksort was able to hit half a billion elements on the machines we tested with.
+-->
