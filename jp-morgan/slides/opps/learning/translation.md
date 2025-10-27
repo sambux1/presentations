@@ -17,7 +17,7 @@
           compute_threshold(labels[state], predictions[state])
       
       for each user:
-          labels = predictions[user] >= thresholds[state]
+          labels[user] = predictions[user] >= thresholds[state]
   ```
 
   </div>
@@ -46,3 +46,17 @@
 </ul>
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
+
+<!--
+Here is that same algorithm expressed in pseudocode. I'll go through each step and show how we translate it to MPC.
+
+First, we initialize the labels, and this can be done in plaintext. The initialization is either randomized or fixed based on the user's state.
+
+The next step is to train a model with the current labels and run inference on the data using the new model. Machine learning under MPC is complex and there's been a ton of work on this, so we just use the existing work as a black box and state that it can be done under MPC.
+
+The key step in updating the labels in each iteration is to determine the threshold separating a Democratic prediction from a Republican prediction. This involves computing percentiles, which effectively requires oblivious sorting, making this a very expensive step. More to come on that point.
+
+Then we need to actually update the labels for each user by comparing it with the state threshold. This can be done with a simple oblivious comparison circuit.
+
+Finally, we need to check for convergence after every iteration to tell when we should stop the training. All we reveal is whether we should stop or not, so a single bit. We do this by taking the current label vector and comparing it with the last label vector, giving us a vector of bits indicating which indices are the same as the last iteration. We can sum the result vector and then do a single comparison between the sum and a convergence threshold. Then we reveal the result of that final comparison.
+-->

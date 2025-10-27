@@ -25,3 +25,11 @@ To appear at CSCML 25!
 </div>
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
+
+<!--
+This first part of the talk is about a deployment of privacy preserving machine learning on web browsing data to predict political preferences.
+
+This is all part of a paper that is going to appear at CSCML 25 in December.
+
+And here are two links to the paper on ePrint and to the code.
+-->

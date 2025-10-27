@@ -36,3 +36,15 @@ $\approx 96$ bits of entropy
 </div>
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
+
+<!--
+We'll start with the computation of WashU's output, which is the users that were active in the sample on a given day.
+
+The mechanism we use to solve the problem is we have users attach a private tag to each upload. This tag is the hash of their ID concatenated with the current date. This is a form of message-locked encryption.
+
+The IDs have about 96 bits of entropy. This isn't super high, but our adversary here is me on my own computer, so that's comfortably beyond my own brute force capabilities.
+
+By operating the webserver that clients interact with, BU collects all the private tags, and then we just send all the tags to WashU.
+
+Then, for each user in the user list, the folks at WashU check if they submitted data on a given date by computing the hash for that day and checking whether it appears in the set they receive from BU.
+-->

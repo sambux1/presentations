@@ -192,10 +192,6 @@ src: ./slides/sorting/secretflow.md
 ---
 
 ---
-
-# 2PC Sorting with Preprocessing
-
----
 src: ./slides/orq/title.md
 ---
 
