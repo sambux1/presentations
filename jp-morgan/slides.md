@@ -152,6 +152,10 @@ src: ./slides/opps/next/scaling-training.md
 ---
 
 ---
+src: ./slides/sorting/roadmap.md
+---
+
+---
 src: ./slides/sorting/title.md
 ---
 
@@ -185,6 +189,10 @@ src: ./slides/sorting/large-results.md
 
 ---
 src: ./slides/sorting/mpspdz.md
+---
+
+---
+src: ./slides/orq/roadmap.md
 ---
 
 ---
@@ -241,6 +249,10 @@ src: ./slides/orq/system.md
 
 ---
 src: ./slides/orq/future.md
+---
+
+---
+src: ./slides/summary.md
 ---
 
 ---

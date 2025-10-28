@@ -3,17 +3,17 @@
 <br>
 <br>
 
-1. Deployment of MPC for Political Polling
+### 1. Deployment of MPC for Political Polling
 
 <br>
 <br>
 
-2. Oblivious Sorting
+### 2. Oblivious Sorting
 
 <br>
 <br>
 
-3. ORQ
+### 3. ORQ
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
