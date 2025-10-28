@@ -70,6 +70,10 @@ src: ./slides/opps/intro.md
 ---
 
 ---
+src: ./slides/opps/plan.md
+---
+
+---
 src: ./slides/opps/polling/traditional.md
 ---
 
