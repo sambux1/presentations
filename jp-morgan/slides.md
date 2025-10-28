@@ -86,11 +86,7 @@ src: ./slides/opps/polling/two-approaches.md
 ---
 
 ---
-src: ./slides/opps/overview/contributions.md
----
-
----
-src: ./slides/opps/overview/problem.md
+src: ./slides/opps/contributions.md
 ---
 
 <!-- System Design Section -->
@@ -109,6 +105,10 @@ src: ./slides/opps/system/webserver.md
 
 ---
 src: ./slides/opps/system/backend.md
+---
+
+---
+src: ./slides/opps/learning/problem.md
 ---
 
 ---

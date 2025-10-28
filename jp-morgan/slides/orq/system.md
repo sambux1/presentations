@@ -14,6 +14,30 @@
 
 <img class="absolute right-12 top-54" style="width: 60%" src="../../figures/orq-stack.png" v-click="6">
 
+<div class="absolute right-12 top-30" style="width: 50%" v-click="[1, 6]">
+
+```cpp {theme=dark}
+auto C = db.getCustomersTable();
+auto O = db.getOrdersTable();
+
+O.filter(O["[Comment]"] != 0);
+
+auto T = C.left_outer_join(O,
+    {"[CustKey]"},
+    {{"Count", "Count", count}});
+
+T.convert_a2b("Count", “[Count]");
+
+auto F = T.aggregate(
+    {"[Count]"},
+    {{"CustDist", "CustDist", count}});
+
+F.convert_a2b("CustDist", "[CustDist]");
+F.sort({"[CustDist]", "[Count]"}, DESC);
+```
+
+</div>
+
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
 <!--

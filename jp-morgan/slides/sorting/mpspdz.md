@@ -7,6 +7,12 @@
     <img src="../../figures/mpspdz.png" style="width: 85%">
 </div>
 
+<div class="absolute bottom-8 left-10 text-lg">
+    <div><b>SH-DM: </b><em>ABY (2PC)</em></div>
+    <div><b>SH-HM: </b><em>Araki et al. (3PC)</em></div>
+    <div><b>Mal-HM: </b><em>Fantastic Four (4PC)</em></div>
+</div>
+
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
 <!--
