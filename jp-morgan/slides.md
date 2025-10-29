@@ -112,6 +112,10 @@ src: ./slides/opps/system/backend.md
 ---
 
 ---
+src: ./slides/opps/learning/overview.md
+---
+
+---
 src: ./slides/opps/learning/problem.md
 ---
 

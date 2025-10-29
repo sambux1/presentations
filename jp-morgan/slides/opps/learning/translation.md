@@ -10,13 +10,17 @@
   initialize_labels()
   
   repeat until convergence:
+      # [!code word:train]
       model = train(data, labels)
+      # [!code word:inference]
       predictions = inference(model, data)
       
       for each state:
+          # [!code word:compute_threshold]
           compute_threshold(labels[state], predictions[state])
       
       for each user:
+          # [!code word:>=]
           labels[user] = predictions[user] >= thresholds[state]
   ```
 
@@ -46,6 +50,14 @@
 </ul>
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
+
+<style>
+.highlighted-word {
+  background-color: #facc15; /* yellow background */
+  border-radius: 2px;
+  padding: 0 2px;
+}
+</style>
 
 <!--
 Here is that same algorithm expressed in pseudocode. I'll go through each step and show how we translate it to MPC.

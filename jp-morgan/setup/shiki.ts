@@ -1,5 +1,6 @@
-import { defineShikiSetup
-} from '@slidev/types'
+// setup/shiki.ts
+import { defineShikiSetup } from '@slidev/types'
+import { transformerNotationWordHighlight } from '@shikijs/transformers'
 
 export default defineShikiSetup
 (() => {
@@ -13,7 +14,7 @@ export default defineShikiSetup
    },
    transformers
 : [
-     // ...
+     transformerNotationWordHighlight(),  // enable word‐highlight transformer
    ],
  }
 })
