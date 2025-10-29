@@ -7,7 +7,7 @@
       <li v-click="1">Each user uploads an <em>unlabeled</em> 1,034-element vector every day
         <ul>
           <li class="nested-gray" v-click="2">Number of visits to the top 517 sites</li>
-          <li class="nested-gray" v-click="3">Number of times referred to the top 517 sites</li>
+          <li class="nested-gray" v-click="3">Number of social media referrals to the top 517 sites</li>
         </ul>
       </li>
       <li v-click="4">Unlabeled vectors are grouped by state</li>

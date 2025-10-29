@@ -2,12 +2,19 @@
 
 <br>
 
-<v-clicks>
+<v-clicks depth="2">
 
 - 2k $\to$ 10k clients
 - Bottleneck: oblivious sorting
+    - 1 minute per 10,000 elements
 
 </v-clicks>
+
+<callout x="35" y="50" v-click="4">
+
+State of the art is $1000\times$ faster!
+
+</callout>
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 

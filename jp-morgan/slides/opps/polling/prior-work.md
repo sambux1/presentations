@@ -6,14 +6,14 @@
     <ul>
       <li v-click="1">Web browsing behavior can predict voting results</li>
       <li v-click="2">Quantifying the 'Comey letter' (Comarela et al.)</li>
-      <li v-click="4">Social media referrals are the best signal</li>
-      <li v-click="5">Used large plaintext dataset</li>
+      <li v-click="5">Social media referrals are the best signal</li>
+      <li v-click="6">Used large plaintext dataset</li>
     </ul>
   </div>
-  <div style="flex: 1; text-align: right;" v-click="3">
-    <img src="../../../figures/comey-letter.png" alt="Motivation Figure" style="max-width: 100%; height: auto;" />
-  </div>
 </div>
+
+<img class="absolute right-8 top-24" style="width: 45%" src="../../../figures/comey-letter.png" v-click="3" />
+<img class="absolute left-40 bottom-6" style="width: 30%" src="../../../figures/comey-graph.png" v-click="4" />
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 

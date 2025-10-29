@@ -1,0 +1,28 @@
+9x6Iw8kzMf0FlBJM/
+
+Running in training mode
+/home/ubuntu/.ssh/samkey.pem
+Rank for reading data: 0
+Successfully removed: /home/ubuntu/data/
+Finished downloading 08-04
+Download complete: 6.46 s
+Finished reading 08-04
+Deduplication removed 0 uploads
+Finished pruning 08-04
+Total Visits:  6362
+Removed 1 users due to invalid histograms.
+563907153360cdd59c8cc7912917d331a29f1d7025c72c82f1d25759951968d2
+tensor(0.4990)
+tensor(0.4991)
+Sorting 64 elements: 2.82s
+Sorting 128 elements: 3.86s
+Sorting 256 elements: 4.95s
+Sorting 512 elements: 7.12s
+Sorting 1024 elements: 10.35s
+Sorting 2048 elements: 15.77s
+Sorting 4096 elements: 25.76s
+Sorting 8192 elements: 45.65s
+Sorting 16384 elements: 84.23s
+Sorting 32768 elements: 164.05s
+Sorting 65536 elements: 324.04s
+FINISHED. Elapsed time: 700.24 s

@@ -160,11 +160,11 @@ src: ./slides/opps/next/scaling-training.md
 ---
 
 ---
-src: ./slides/sorting/roadmap.md
+src: ./slides/sorting/title.md
 ---
 
 ---
-src: ./slides/sorting/title.md
+src: ./slides/sorting/roadmap.md
 ---
 
 ---

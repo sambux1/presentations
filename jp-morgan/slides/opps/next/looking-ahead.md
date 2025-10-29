@@ -4,12 +4,14 @@
 
 <v-clicks>
 
-- More data
+- Anonymous payments
+- More fine-grained data
 - Redesigning the inference pipeline
 - Scaling the training pipeline
-- Anonymous payments
 
 </v-clicks>
+
+<img class="absolute bottom-10 left-1/2 -translate-x-1/2" src="../../../figures/live-training.png" style="width:75%" v-click="5">
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 

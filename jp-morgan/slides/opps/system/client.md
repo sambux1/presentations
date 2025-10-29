@@ -7,7 +7,6 @@
       <li v-click="1">Custom-built Chrome plugin to monitor browsing</li>
       <li v-click="2">Daily data uploads of secret-shared histograms</li>
       <li v-click="3">Client-side secret sharing and encryption</li>
-      <li v-click="4">Implementation is open source</li>
     </ul>
   </div>
   <div style="flex: 1; text-align: right;">

@@ -15,3 +15,5 @@
 </v-clicks>
 
 </div>
+
+<SlideCurrentNo class="absolute bottom-8 right-10"/>
