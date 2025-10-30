@@ -23,14 +23,19 @@ One Solution
 
 </v-clicks>
 
-<v-clicks>
 
-- Input padding
-- Padded bits represent the applied permutation
+<ul>
+    <li v-click="5">Input padding</li>
+    <li v-click="8">Padded bits represent the applied permutation</li>
+</ul>
 
-</v-clicks>
+<img v-click="6" class="absolute top-70 right-18" style="width: 50%" src="../../figures/sort-padding.png">
 
-<img v-click="5" class="absolute top-70 right-18" style="width: 50%" src="../../figures/sort-padding.png">
+<callout x="67.8" y="67" v-click="7">
+
+$x_i \to x_i || i$
+
+</callout>
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
