@@ -1,5 +1,13 @@
 9x6Iw8kzMf0FlBJM/
 
+aws s3api list-objects-v2 --bucket YOUR_BUCKET \
+  --query "Contents[*].[LastModified, Key]" --output text \
+| sort \
+| awk '{split($2, a, "/"); print $1, a[1]}' \
+| sort \
+| awk '!seen[$2]++' \
+| grep 04-03
+
 Running in training mode
 /home/ubuntu/.ssh/samkey.pem
 Rank for reading data: 0
