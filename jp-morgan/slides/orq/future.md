@@ -6,7 +6,9 @@
 
 - Machine learning
 - Graph algorithms
-- SPDZ
+- New protocols
+    - SPDZ
+    - Honest majorities with many parties
 - 2PC preprocessing
     - Beaver triples over $\mathbb{Z}_{2^k}$
     - Oblivious shuffling

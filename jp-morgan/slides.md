@@ -188,6 +188,10 @@ src: ./slides/sorting/radix.md
 ---
 
 ---
+src: ./slides/sorting/analysis.md
+---
+
+---
 src: ./slides/sorting/extracting.md
 ---
 
@@ -200,11 +204,11 @@ src: ./slides/sorting/mpspdz.md
 ---
 
 ---
-src: ./slides/orq/roadmap.md
+src: ./slides/orq/title.md
 ---
 
 ---
-src: ./slides/orq/title.md
+src: ./slides/orq/roadmap.md
 ---
 
 ---
@@ -256,14 +260,13 @@ src: ./slides/orq/system.md
 ---
 
 ---
+src: ./slides/orq/summary.md
+---
+
+---
 src: ./slides/orq/future.md
 ---
 
 ---
-src: ./slides/summary.md
+src: ./slides/thank-you.md
 ---
-
----
-layout: center
----
-# Thank You!

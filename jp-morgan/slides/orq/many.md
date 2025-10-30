@@ -12,12 +12,14 @@ We can transform a many-to-many join into a one-to-many join.
 
 </v-clicks>
 
+<div style="margin-left: 2rem">
 <v-clicks>
 
 - The aggregation must be decomposable
 - All keys must exist in one of the tables
 
 </v-clicks>
+</div>
 
 <v-clicks>
 

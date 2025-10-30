@@ -11,6 +11,15 @@
 
 </v-clicks>
 
+<br>
+<br>
+
+<v-clicks>
+
+$[\vec{x}] \to [\pi(\vec{x})] \to [\sigma(\pi(\vec{x}))]$
+
+</v-clicks>
+
 <div class="absolute top-30 right-12">
   <img src="../../figures/quicksort-idea.png" class="w-1/2 ml-auto" />
 </div>

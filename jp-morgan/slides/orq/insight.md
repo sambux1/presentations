@@ -14,6 +14,12 @@ Joins with incremental aggregations can avoid the quadratic blowup.
 
 </v-clicks>
 
+<callout x="30" y="62" v-click="5">
+
+$f(X, Y) = f(f(X), f(Y))$
+
+</callout>
+
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
 <!--

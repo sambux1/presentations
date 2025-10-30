@@ -5,10 +5,10 @@
     v-show="$slidev.nav.clicks < 1">
 
   <img src="../../figures/radix-animated/radix-1.png"
-    v-click v-show="$slidev.nav.clicks >= 1 && $slidev.nav.clicks <= 2">
+    v-click v-show="$slidev.nav.clicks == 1">
   
   <img src="../../figures/radix-animated/radix-2.png"
-    v-click v-show="$slidev.nav.clicks == 3">
+    v-click v-show="$slidev.nav.clicks >= 2 && $slidev.nav.clicks <= 3">
   
   <img src="../../figures/radix-animated/radix-3.png"
     v-click v-show="$slidev.nav.clicks == 4">
@@ -32,7 +32,7 @@
     v-click="10" v-show="$slidev.nav.clicks >= 10">
 </div>
 
-<callout x="50" y="15" v-click="2">
+<callout x="50" y="15" v-click="3">
 
   Single bit sorting is $O(n)$
 
