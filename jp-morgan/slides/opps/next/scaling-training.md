@@ -23,7 +23,11 @@ The more difficult half of the learning process is training the models, because 
 
 We want to be able to support more users. Just to throw some numbers around, say we want to scale from 2 thousand daily active users to 10 thousand.
 
-The performance bottleneck in this current deployment is oblivious sorting. Regardless of which cryptographic techniques we use for training, we're going to have to scale up oblivious sorting.
+The performance bottleneck in this current deployment is oblivious sorting. The current implementation, which was not optimized for performance, can process about 10 thousand elements per minute.
 
-And I want to use that point to segue into the second half of this talk, which is about oblivious sorting and ORQ.
+This is about a thousand x away from the state of the art.
+
+You may be wondering what that state of the art is?
+
+So, I want to now segue into the second half of this talk, which is about oblivious sorting and ORQ.
 -->

@@ -30,7 +30,7 @@ We run the MPC in the three party setting with an honest majority.
 
 And we built our implementation on top of the CrypTen library.
 
-We implemented an algorithm for the learning from label proportions problem under MPC. This is the first MPC implementation of a model for this particular problem.
+We implemented an algorithm for the learning from label proportions problem under MPC.
 
-I'll talk more about the details of the implementation in the next slides.
+I'll talk more about the details of the MPC computation and its implementation in the next slides.
 -->

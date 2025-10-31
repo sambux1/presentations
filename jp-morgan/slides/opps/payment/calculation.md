@@ -47,4 +47,8 @@ The IDs have about 96 bits of entropy. This isn't super high, but our adversary 
 By operating the webserver that clients interact with, BU collects all the private tags, and then we just send all the tags to WashU.
 
 Then, for each user in the user list, the folks at WashU check if they submitted data on a given date by computing the hash for that day and checking whether it appears in the set they receive from BU.
+
+For this side of the problem, we could have just had users send all tags directly to WashU to let them sort through it all, but we didn't want to bother the WashU people with that. We wanted me to be responsible for most of the work.
+
+You can look at this setup as a form of asymmetric MPC where I do most of the work, and WashU only participates to protect their secret information.
 -->

@@ -18,17 +18,19 @@
 <!--
 To wrap up this first part of the talk, let's look into the future a bit.
 
-We want to run this project again. 2026 is a little bit too close to make any meaningful changes, so we're setting our sights on the 2028 elections.
+We want to run this project again. 2026 is a little bit too close to make any meaningful changes, so we're setting our sights on the 2028 elections, both the general election and the primaries.
 
-There are three major changes that we're exploring as we build the next version.
+There are four major changes that we're exploring as we build the next version.
 
-First, we want to collect more data, while respecting user privacy.
+With all the work we put into the payment system to get something that's still not private, one focus will be on integrating anonymous payments.
 
-Second, we want to redesign and rebuild the inference pipeline to take advantage of the fact that inference is an easier problem than training.
+Aside from that, we want to collect more fine-grained data, while respecting user privacy. I'll come to what this means in a moment.
+
+We want to redesign and rebuild the inference pipeline to take advantage of the fact that inference is an easier problem than training.
 
 Third, we want to scale up the training pipeline to be able to accommodate more users and a larger sample.
 
-And finally, we want to make the payment process anonymous.
+Before I get to these points, I want to note that in this past deployment, due to time constraints, we ended up collecting all our data first and then analyzing it after the fact.
 
-I'll talk about our plans for these first three points. I won't say any more about payment since we already talked about payment a lot. 
+In this next election, we want live predictions. So we want our output to be something like this, with live predictions that can hopefully compete directly with other polling methods. This means we need daily inference, and we need some kind of periodic retraining on all our new data.
 -->

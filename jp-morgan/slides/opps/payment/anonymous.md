@@ -21,7 +21,9 @@ WashU maps IDs to anonymized IDs between $1$ and $n$.
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
 <!--
-Now for BU's output, which is the aggregation of users over weekly intervals.
+The other half of this setup is more of a real secure computation, although it still took place my email.
+
+For BU's output, we want the aggregation of users over weekly intervals.
 
 What we're going to do is create anonymized IDs. WashU maps the real user IDs onto anonymized IDs between 1 and n where n is the total number of users.
 

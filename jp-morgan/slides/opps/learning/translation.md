@@ -17,7 +17,7 @@
       
       for each state:
           # [!code word:compute_threshold]
-          compute_threshold(labels[state], predictions[state])
+          compute_threshold(truth[state], predictions[state])
       
       for each user:
           # [!code word:>=]
@@ -60,7 +60,11 @@
 </style>
 
 <!--
-Here is that same algorithm expressed in pseudocode. I'll go through each step and show how we translate it to MPC.
+Here is that same algorithm expressed in pseudocode.
+
+We can use the same pseudocode for both the plaintext and MPC algorithms, but we need to replace individual components, those highlighted in yellow, with their oblivious counterparts.
+
+I'll go through each step and show how we translate it to MPC.
 
 First, we initialize the labels, and this can be done in plaintext. The initialization is either randomized or fixed based on the user's state.
 

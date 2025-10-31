@@ -17,3 +17,7 @@
 </div>
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
+
+<!--
+I want to lay out what this first section of the talk will look like.
+-->

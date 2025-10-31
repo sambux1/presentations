@@ -61,6 +61,12 @@ October 31, 2025
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
+<!--
+Hello, [introduction]
+
+This talk is a combination of two recent papers of mine.
+-->
+
 ---
 src: ./slides/roadmap.md
 ---

@@ -24,7 +24,7 @@
 </style>
 
 <!--
-Let's start with the client plugin.
+For the client plugin,
 
 We built a custom Chrome plugin from scratch which monitors both website visits and referrals.
 
@@ -35,6 +35,4 @@ Then it secret shares the histogram and sends the shares to the computing partie
 The shares are encrypted under the public key of the destination party.
 
 All secret sharing and encryption takes place on the client side.
-
-And finally, the plugin code is open source and can be found at the link at the bottom.
 -->
