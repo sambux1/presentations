@@ -9,3 +9,6 @@ This repository contains the source code for all of my presentations, built usin
 
 ### Qualifying Exam
 - (soon)
+
+### Other
+- [[JP Morgan Chase Seminar]](jp-morgan/jp-morgan-chase.pdf)
