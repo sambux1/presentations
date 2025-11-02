@@ -44,7 +44,7 @@ mdc: true
 
 # Qualifying Exam
 
-November ..., 2025
+November 7, 2025
 
 Sam Buxbaum
 
@@ -122,4 +122,8 @@ src: ./slides/shuffle/open-num.md
 
 ---
 src: ./slides/shuffle/open-size.md
+---
+
+---
+src: ./slides/scalability/header.md
 ---
