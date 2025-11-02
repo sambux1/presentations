@@ -49,6 +49,14 @@ November 7, 2025
 Sam Buxbaum
 
 ---
+src: ./slides/intro/motivation.md
+---
+
+---
+src: ./slides/intro/scaling-up.md
+---
+
+---
 src: ./slides/shuffle/header.md
 ---
 
