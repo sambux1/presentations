@@ -135,3 +135,11 @@ src: ./slides/shuffle/open-size.md
 ---
 src: ./slides/scalability/header.md
 ---
+
+---
+src: ./slides/scalability/motivation.md
+---
+
+---
+src: ./slides/scalability/aggregation.md
+---
