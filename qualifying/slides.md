@@ -151,3 +151,15 @@ src: ./slides/scalability/star-topology.md
 ---
 src: ./slides/scalability/multiplication.md
 ---
+
+---
+src: ./slides/scalability/extension.md
+---
+
+---
+src: ./slides/scalability/truncation.md
+---
+
+---
+src: ./slides/scalability/performance.md
+---
