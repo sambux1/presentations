@@ -2,18 +2,34 @@
 
 <br>
 
+<v-clicks>
+
 **Goal**: Extend the line of work on PCGs into the domain of oblivious shuffling.
 
+</v-clicks>
+
 <br>
+
+<v-clicks>
 
 *We want to do to oblivious shuffling what pseudorandom correlation generators did to oblivious transfer.*
 
+</v-clicks>
+
 <br>
 
+<v-clicks>
+
 Concrete technical problems:
+
+</v-clicks>
+<v-clicks>
+
 - Sublinearity in $\ell$ (in practice)
 - Sublinearity in $p$
 - Sublinearity in $n$
+
+</v-clicks>
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
