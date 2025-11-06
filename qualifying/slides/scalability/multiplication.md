@@ -5,10 +5,10 @@
 <v-clicks>
 
 - $[x]$ denotes a degree-$t$ Shamir sharing
-- $\langle x \rangle$ denotes a degree-$2t$ Shamir sharing
+- $[[x]]$ denotes a degree-$2t$ Shamir sharing
 - Local multiplication converts $t$ sharing to $2t$ sharing
 - We need to perform a degree reduction
-- Multiplication consumes a double sharing $([r], \langle r \rangle)$
+- Multiplication consumes a double sharing $([r], [[r]])$
 
 </v-clicks>
 
