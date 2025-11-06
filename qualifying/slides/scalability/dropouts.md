@@ -17,6 +17,8 @@ Proposal: Embrace the threshold scheme to tolerate dropouts.
 
 </v-clicks>
 
+<SlideCurrentNo class="absolute bottom-8 right-10"/>
+
 <!--
 Scaling the king party will solve one important bottleneck, but there's still one more big one to consider.
 

@@ -141,6 +141,10 @@ src: ./slides/scalability/motivation.md
 ---
 
 ---
+src: ./slides/scalability/aggregation.md
+---
+
+---
 src: ./slides/scalability/star-topology.md
 ---
 
@@ -166,6 +170,10 @@ src: ./slides/scalability/scaling-king.md
 
 ---
 src: ./slides/scalability/dropouts.md
+---
+
+---
+src: ./slides/summary.md
 ---
 
 ---
