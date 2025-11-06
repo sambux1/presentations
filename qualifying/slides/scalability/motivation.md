@@ -38,6 +38,8 @@
 
 </div>
 
+<img src="../../figures/outsourced.png" class="absolute bottom-6 right-26" style="width: 30%" v-click="5">
+
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
 <!--

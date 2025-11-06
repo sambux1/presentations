@@ -12,13 +12,61 @@ Peceny, Raghuraman, Rindal, and Shah (PKC 2025)
 
 - Two constructions
 - Both based on oblivious pseudorandom functions
-- Both with linear communication in $n$
-- One with linear communication in $\ell$
-- One with sublinear communication in $\ell$
 
 </v-clicks>
 
+<br>
+<br>
+
+:::: div{class="sort-table absolute right-10 top-30 w-2/5" v-click="4"}
+
+| Construction 1 | Construction 2 |
+| --- | --- |
+| $O(n \ell)$ | $O(n \log \ell)$ |
+
+::::
+
+<div class="absolute bottom-6 left-1/2 transform -translate-x-1/2" style="display:flex; flex-direction: column; align-items: center; gap: 0.5rem; width: 44%;" v-click="1">
+  <img style="width: 100%; border:1px solid #000000" src="../../figures/permcorr-paper.png">
+</div>
+
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
+
+
+<style scoped>
+/* Important: override prose reset */
+:deep(.sort-table table) {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 0.9rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+:deep(.sort-table thead tr) {
+  background: linear-gradient(180deg, #f8fafc, #eef2f7);
+}
+
+/* Borders restored */ 
+:deep(.sort-table th),
+:deep(.sort-table td) {
+  text-align: left;
+  padding: 8px 12px;
+  border: 1px solid #e5e7eb !important;
+}
+
+/* Row striping */
+:deep(.sort-table tbody tr:nth-child(odd)) {
+  background: #fafafa;
+}
+
+/* Highlight top two rows */
+:deep(.sort-table tbody tr:nth-child(-n+2)) {
+  background: #dcfce7 !important;
+}
+</style>
 
 <!--
 Now I want to talk about what the state of the art constructions for permutation correlations look like. In particular, we'll be looking at two related constructions from a paper by Peceny, Raghuraman, Rindal, and Shah, from PKC 2025.

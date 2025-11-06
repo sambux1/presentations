@@ -18,6 +18,10 @@ Liu et al. (Usenix Security 2024)
 
 </v-clicks>
 
+<div class="absolute bottom-6 right-20" style="display:flex; flex-direction: column; align-items: center; gap: 0.5rem; width: 45%;" v-click="1">
+  <img style="width: 100%; border:1px solid #000000" src="../../figures/liu-paper.png">
+</div>
+
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
 <!--

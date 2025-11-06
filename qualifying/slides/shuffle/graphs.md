@@ -18,7 +18,7 @@ Not easy to efficiently express a graph obliviously.
 
 <v-clicks>
 
-The GraphSC paradigm.
+The GraphSC paradigm (Nayak et al.)
 
 </v-clicks>
 

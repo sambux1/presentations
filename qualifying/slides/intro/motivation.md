@@ -8,13 +8,15 @@
 
 <div class="flex flex-col items-center">
 
-<p>Secure computation has taken great leaps in recent years...</p>
+<p v-click="1">Secure computation has taken great leaps in recent years...</p>
 
 <br>
 
-<p>but it's still impractical in many scenarios.</p>
+<p v-click="2">but it's still impractical in many scenarios.</p>
 
-<br><b>Goal:</b> Fill in the gaps that prevent the use of MPC in practice
+<br>
+
+<p v-click="3"><b>Goal:</b> Fill in the gaps that prevent the use of MPC in practice</p>
 
 </div>
 

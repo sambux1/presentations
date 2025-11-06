@@ -2,20 +2,21 @@
 
 <br>
 
+<img src="../../figures/star/star.png" class="absolute right-0 bottom-0" style="width: 50%" v-click="2">
+
 <v-clicks>
 
-<img src="../../figures/star/star.png" class="absolute right-0 bottom-0" style="width: 50%">
-
-</v-clicks>
-<v-clicks>
-
-- Damgard-Nielsen 2007
+- Damgard-Nielsen, 2007
 - Central untrusted "king" party
 - $O(n)$ communication per gate
 - Based on Shamir secret sharing
 - Requires an honest majority
 
 </v-clicks>
+
+<div class="absolute bottom-6 left-12" style="display:flex; flex-direction: column; align-items: center; gap: 0.5rem; width: 44%;" v-click="1">
+  <img style="width: 100%; border:1px solid #000000" src="../../figures/dn07-paper.png">
+</div>
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 

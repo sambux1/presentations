@@ -7,10 +7,10 @@
 Can we "chop up" a correlation with large $\ell$ into many correlations with small $\ell$?
 
 </v-clicks>
-<v-clicks>
+<v-clicks depth="2">
 
-- Very challenging
-- Can define a *stateful rerandomization* ideal functionality that captures the intended behavior
+- Very challenging to achieve independence
+- Can define an ideal functionality that captures the intended behavior
 
 </v-clicks>
 
@@ -21,6 +21,8 @@ Can we "chop up" a correlation with large $\ell$ into many correlations with sma
 Application: relational analytics
 
 </v-clicks>
+
+<img src="../../figures/chopping.png" class="absolute bottom-6 left-1/2 transform -translate-x-1/2" style="width: 40%" v-click="1">
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 

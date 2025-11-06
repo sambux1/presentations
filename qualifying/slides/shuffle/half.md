@@ -17,7 +17,7 @@
   <img src="../../figures/permute-share-func.drawio.png" alt="Permute-share function" class="w-1/2 ml-auto" />
 </div>
 
-- Known as "Permute+Share"
+- Known as "Permute+Share" (Chase et al.)
 
 </v-clicks>
 

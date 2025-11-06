@@ -16,7 +16,7 @@ Oblivious sorting networks require $O(n \log^2 n)$ comparison gates.
 <br>
 <v-clicks>
 
-The shuffle-then-sort paradigm.
+The shuffle-then-sort paradigm (Hamada et al.)
 
 </v-clicks>
 <v-clicks>
