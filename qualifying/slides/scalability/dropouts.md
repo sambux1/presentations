@@ -17,6 +17,8 @@ Proposal: Embrace the threshold scheme to tolerate dropouts.
 
 </v-clicks>
 
+<img src="../../figures/dropout.png" class="absolute bottom-6 left-1/2 transform -translate-x-1/2" style="width: 60%" v-click="2">
+
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
 <!--

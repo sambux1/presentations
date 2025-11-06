@@ -15,6 +15,8 @@ Proposal: Lean into the king as the bottleneck.
 
 </v-clicks>
 
+<img src="../../figures/scaling-king.png" class="absolute bottom-20 right-50" style="width: 15%" v-click="3">
+
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
 <!--
