@@ -3,12 +3,12 @@
 This repository contains the source code for all of my presentations, built using [slidev](https://github.com/slidevjs/slidev).
 
 ### OPPS Political Polling
-- [[PPML Workshop]](opps/ppml.pdf)
-- [[SysteMPC Workshop]](opps/systempc.pdf)
+- [PPML Workshop](opps/ppml.pdf)
+- [SysteMPC Workshop](opps/systempc.pdf)
 - (soon) CSCML 25
 
 ### Qualifying Exam
-- (soon)
+- [Qualifying Exam](qualifying/qualifying-exam.pdf)
 
 ### Other
-- [[JP Morgan Chase Seminar]](jp-morgan/jp-morgan-chase.pdf)
+- [JP Morgan Chase Seminar](jp-morgan/jp-morgan-chase.pdf)
