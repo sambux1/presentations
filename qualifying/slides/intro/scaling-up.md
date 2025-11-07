@@ -36,13 +36,13 @@ I mean this in two senses.
 
 First, I mean this in the sense that we want to be able to support more expressive and more sophisticated functions.
 
-For those of you that have tried to write MPC programs using some framework or library, you probably know that each library has a set of operations that are supported out of the box and that are easy to use, but if you need functionality beyond that base set of operations, it very quickly become a nightmare and set you back by weeks or months of development time. This problem arises frequently when implementing complex operations that don't trivially reduce to a simple set of components.
+In particular, we'll be looking at a primitive known as oblivious shuffling, which appears in a wide variety of difficult workloads. For some problems, blivious shuffling can allow for much more efficient and much more natural expression under MPC.
 
-In particular, we'll be looking at oblivious shuffling, which is a primitive that pops up in a wide variety of difficult workloads. I'll hopefully convince you that oblivious shuffling is an important building block that improves our ability to translate complex functions to MPC. The goal of this half is to improve the expressivity of MPC.
+The goal of this half of the talk is to improve the expressivity of MPC. Any computation can be performed securely, so what I mean by improving the expressivity is not enabling entirely new computations, but enabling far more natural approaches to a variety of problems. I'll hopefully convince you that oblivious shuffling is an important building block that improves our ability to translate complex functions to MPC.
 
 For the second direction, I mean scaling up in a more literal sense. We want to directly incorporate more parties in the secure computation. MPC with, for example, thousands of parties is known to be possible from a theoretical standpoint, but this scale has been elusive in practice.
 
-The reason we want to scale to directly incorporate more parties is, that way we can distribute the trust more widely than we could if we have a small set of servers with a non-collusion assumption.
+The reason we want to scale to directly incorporate more parties is that it allows us to distribute the trust more widely than we could if we have a small set of servers with a non-collusion assumption.
 
 I think both of these directions are necessary to help MPC take that next step toward practicality and deployment.
 -->

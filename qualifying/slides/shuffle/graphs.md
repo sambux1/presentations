@@ -27,7 +27,7 @@ The GraphSC paradigm (Nayak et al.)
 - Encode the graph as a single list
 - The list has two orderings
 - Two important operations, scatter and gather
-- Each operation is efficiently only in one of the orderings
+- Each operation is efficient only in one of the orderings
 - Shuffling allows us to convert between the orderings
 
 </v-clicks>

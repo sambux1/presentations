@@ -32,6 +32,4 @@ but it's still impractical in many scenarios.
 That is to say, there's a lot of work left to do to keep applying these techniques to more and more real world problems.
 
 The goal that's going to motivate everything else in this talk is that we want to fill the gaps that are preventing MPC from taking the next step toward practical realization.
-
-And this involves performance, but it's about more than just performance.
 -->

@@ -57,6 +57,14 @@ src: ./slides/intro/scaling-up.md
 ---
 
 ---
+src: ./slides/intro/vision.md
+---
+
+---
+src: ./slides/intro/roadmap.md
+---
+
+---
 src: ./slides/shuffle/header.md
 ---
 
@@ -130,6 +138,10 @@ src: ./slides/shuffle/open-num.md
 
 ---
 src: ./slides/shuffle/open-size.md
+---
+
+---
+src: ./slides/scalability/roadmap.md
 ---
 
 ---
