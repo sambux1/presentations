@@ -1,4 +1,4 @@
-# Sublinearity in $\ell$
+# Open: Sublinearity in $\ell$
 
 <br>
 
@@ -19,12 +19,6 @@ Protocols exist for generating permutation correlations with sublinear communica
 <v-clicks>
 
 Ongoing work: graph algorithms
-
-</v-clicks>
-<v-clicks>
-
-- Requires thousands of bits of permutation correlations
-- Existing constructions can be practical
 
 </v-clicks>
 

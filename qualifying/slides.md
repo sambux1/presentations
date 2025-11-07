@@ -153,6 +153,10 @@ src: ./slides/scalability/motivation.md
 ---
 
 ---
+src: ./slides/scalability/outline.md
+---
+
+---
 src: ./slides/scalability/aggregation.md
 ---
 

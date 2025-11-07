@@ -2,12 +2,13 @@
 
 <br>
 
-<v-clicks>
+<v-clicks depth="2">
 
 - $O(n \log \ell)$ total communication
 - Efficient only for very long $\ell$
 - Crossover point is $\ell \approx 4000$
 - Application: graph algorithms
+    - Requires thousands of bits of permutation correlations
 
 </v-clicks>
 

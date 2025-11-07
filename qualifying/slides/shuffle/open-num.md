@@ -1,4 +1,4 @@
-# Sublinearity in $p$
+# Open: Sublinearity in $p$
 
 <br>
 

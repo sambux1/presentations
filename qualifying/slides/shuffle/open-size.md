@@ -1,4 +1,4 @@
-# Sublinearity in $n$
+# Open: Sublinearity in $n$
 
 <br>
 

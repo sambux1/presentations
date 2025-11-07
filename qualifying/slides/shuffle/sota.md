@@ -35,26 +35,20 @@ Peceny, Raghuraman, Rindal, and Shah (PKC 2025)
 
 <style scoped>
 /* Important: override prose reset */
-:deep(.sort-table table) {
-  width: 100%;
-  border-collapse: collapse;
-  background: #ffffff;
+:deep(.sort-table) {
+  background:rgba(230, 230, 230, 0.75);
   border-radius: 8px;
   overflow: hidden;
+  /* Prevent anti-alias hairline at bottom radius */
+  background-clip: padding-box;
+}
+
+:deep(.sort-table table) {
+  width: 100%;
+  background: transparent;
+  border-radius: 0;
+  border-spacing: 0;
   font-size: 0.9rem;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-}
-
-:deep(.sort-table thead tr) {
-  background: linear-gradient(180deg, #f8fafc, #eef2f7);
-}
-
-/* Borders restored */ 
-:deep(.sort-table th),
-:deep(.sort-table td) {
-  text-align: left;
-  padding: 8px 12px;
-  border: 1px solid #e5e7eb !important;
 }
 
 /* Row striping */
@@ -64,7 +58,7 @@ Peceny, Raghuraman, Rindal, and Shah (PKC 2025)
 
 /* Highlight top two rows */
 :deep(.sort-table tbody tr:nth-child(-n+2)) {
-  background: #dcfce7 !important;
+  background:rgb(200, 255, 220) !important;
 }
 </style>
 
