@@ -2,6 +2,7 @@
 # You can also start simply with 'default'
 theme: seriph
 background: white
+colorSchema: light
 # some information about your slides (markdown enabled)
 title: OPPS Presentation
 # apply unocss classes to the current slide
@@ -46,7 +47,7 @@ mdc: true
 </style>
 
 
-## Deployment of Privacy-Preserving Machine Learning for Political Polling in the 2024 Presidential Election
+## Privacy-Preserving Machine Learning on Web Browsing for Public Opinion
 
 <br>
 <br>
@@ -65,9 +66,9 @@ Lucas M. Tassis, Lucas Boschelli, Giovanni Comarela, Mayank Varia, Mark Crovella
 
 <br>
 
-PPML Workshop
+CSCML 25
 
-August 17, 2025
+December 4, 2025
 
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
@@ -107,9 +108,6 @@ src: ./slides/polling/two-approaches.md
 src: ./slides/intro/overview.md
 ---
 
----
-src: ./slides/learning/problem.md
----
 
 <!-- System Design Section -->
 
@@ -132,11 +130,19 @@ src: ./slides/system/backend.md
 <!-- Plaintext and MPC Learning Algorithm -->
 
 ---
+src: ./slides/learning/overview.md
+---
+
+---
+src: ./slides/learning/problem.md
+---
+
+---
 src: ./slides/learning/plaintext.md
 ---
 
 ---
-src: ./slides/learning/mpc.md
+src: ./slides/learning/translation.md
 ---
 
 ---
