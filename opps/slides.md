@@ -168,3 +168,19 @@ src: ./slides/lessons-future/strengthen.md
 ---
 src: ./slides/conclusion/thank-you.md
 ---
+
+---
+src: ./slides/payment/payment.md
+---
+
+---
+src: ./slides/payment/partition.md
+---
+
+---
+src: ./slides/payment/calculation.md
+---
+
+---
+src: ./slides/payment/anonymous.md
+---

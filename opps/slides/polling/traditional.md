@@ -7,7 +7,7 @@
     <ul>
       <li v-click="1">Data collection takes time</li>
       <li v-click="2">Data collection is human‐intensive</li>
-      <li v-click="3">Poor geographic and temporal coverage</li>
+      <li v-click="3">Limited geographic and temporal coverage</li>
     </ul>
     <br>
     <div style="margin-top:2rem; text-align:center;">
