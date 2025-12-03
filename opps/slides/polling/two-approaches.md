@@ -112,7 +112,7 @@ layout: center
 To summarize, I'll compare the traditional approach to polling with one based on collecting web browsing data.
 
 Traditional polling is
-- slow and expensive, because data is a human-intensive process
+- slow and expensive, because data collection is a human-intensive process
 - the results we get are coarse-grained, we only learn whether you support candidate A or B, but not the data informing the choice
 
 In contrast, a system based on analyzing web browsing data can be fully automated

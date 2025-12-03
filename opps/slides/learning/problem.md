@@ -36,7 +36,7 @@
 </style>
 
 <!--
-Before diving into the MPC, I'll take a minute to talk about the learning problem we're trying to solve.
+Let's look at the LLP problem as it appears in our system.
 
 Every day, each user in the system is going to send us a unlabeled vector with about 1000 elements. We don't know their political preference.
 
@@ -44,7 +44,7 @@ The vector contains the number of visits to each of the top 517 websites in the 
 
 The unlabeled vectors are grouped together by state, and each state has a ground truth, which can be either the real election results or a prior poll.
 
-Here are two example states. The left might be Massachussetts. We don't know who the individual users prefer, but we know that the state as a whole voted 60% for the Democratic candidate. On the right might be Florida. Again, we don't know the individual preferences, but we know that the state as a whole voted 55% for the Republican candidate.
+Here are two example states. The left might be Massachusetts. We don't know who the individual users prefer, but we know that the state as a whole voted 60% for the Democratic candidate. On the right might be Florida. Again, we don't know the individual preferences, but we know that the state as a whole voted 55% for the Republican candidate.
 
 The goal of the problem is to train on an aggregate ground truth.
 

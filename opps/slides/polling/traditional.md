@@ -32,7 +32,7 @@
 <!--
 This project is about a new way to do political polling.
 
-So I'll start with some background and some of the downsides of traditional approaches to polling.
+So I'll start with some background on traditional approaches to polling.
 
 In a typical poll, we collect data by either calling people or getting them to fill out a survey.
 
@@ -40,7 +40,7 @@ This means that data collection takes time. There's typically a high latency bet
 
 Second, data collection is a human-intensive process, so scaling to collect more data can be quite costly.
 
-Finally, traditional polling offers poor geographic and temporal coverage. Polls are restricted to a few key areas immediately before an election, which means many locations go unpolled for weeks or months.
+Finally, traditional polling offers limited geographic and temporal coverage. Polls are restricted to a few key areas immediately before an election, which means many locations go unpolled for weeks or months.
 
 What I'm about to show is the complete list of polls commissioned in the state of WV in the last 3 months before the election.
 

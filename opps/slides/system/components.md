@@ -31,7 +31,7 @@
 
 
 <!--
-We built a system. The system has 3 major components.
+I'll now give an overview of our system. The system has 3 major components.
 
 First, there's a browser plugin that users install which monitors their web browsing.
 

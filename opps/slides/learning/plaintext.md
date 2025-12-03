@@ -24,7 +24,7 @@
 <SlideCurrentNo class="absolute bottom-8 right-10"/>
 
 <!--
-To implement an LLP model under MPC, we first need to talk about the plaintext algorithm that it corresponds to.
+We'll now talk about a plaintext algorithm for this problem, and then we'll see how to translate it to MPC.
 
 As a reminder, the input to the model is a group of unlabeled histograms grouped together by state, where each state has a ground-truth label.
 

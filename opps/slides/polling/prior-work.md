@@ -33,13 +33,11 @@ As an example that demonstrates the power of this approach to polling,
 
 Comarela et al. use web browsing data to quantify the effect of the 2016 "Comey Letter" on a state-by-state basis.
 
-The Comey letter was a letter from the head of the FBI calling for an investigation into Hillary Clinton just a few days before the election. What matters to us is that the event was too close to the election for other polling methods to detect the effect in time.
+What matters to us is that the event was too close to the election for other polling methods to detect the effect in time.
 
 You can see the impact at a state level on the right. And you can see a noticeable shift in the time series on the left.
 
-There have been a lot of theories that the letter either did or didn't impact the election, but these claims usually don't have much data behind them. This paper was able to say that the letter mattered by approximately one percent.
-
-They also found that social media provide the best signal.
+They also found that social media provides the best signal.
 
 By this, I mean not whether you visited a certain website, but whether you did so by clicking on a link on social media.
 
